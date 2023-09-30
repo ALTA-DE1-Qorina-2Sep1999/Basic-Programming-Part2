@@ -1,5 +1,8 @@
-'''
-Input Harga: 370000
-Input Diskon: 15
-Output: harga yang harus dibayar adalah Rp. 314.500
-'''
+def bayar(harga, discount):
+    harga_int = int(harga)
+    discount_int = int(discount)
+    x = round(harga - (harga_int * discount_int / 100))
+    return x
+
+if __name__ == "__main__":
+    print(bayar(370000, 15))

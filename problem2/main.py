@@ -1,6 +1,6 @@
-# input
-alas = 20.0
-tinggi = 25.0
+def luas_segitiga(a, t):
+    luas = round(a*t/2) 
+    return luas
 
-
-# kode disini
+if __name__ == "__main__":
+    print(luas_segitiga(20.0, 25.0)) #250

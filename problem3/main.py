@@ -1,6 +1,6 @@
-# input
-T = 20.0
-r = 4.0
+def luas_permukaan_tabung(r, T):
+    luas = (2 * 3.14 * r * r) + (2 * 3.14 * r * T)
+    return luas
 
-
-# kode disini
+if __name__ == "__main__":
+    print(luas_permukaan_tabung(4, 20))
